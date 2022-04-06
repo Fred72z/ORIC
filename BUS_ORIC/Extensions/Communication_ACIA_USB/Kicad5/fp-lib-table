@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Connector_Dsub)(type KiCad)(uri ${KISYSMOD}/Connector_Dsub.pretty)(options "")(descr ""))
+  (lib (name Capacitor_SMD)(type KiCad)(uri ${KISYSMOD}/Capacitor_SMD.pretty)(options "")(descr ""))
+  (lib (name Connector_USB)(type KiCad)(uri ${KISYSMOD}/Connector_USB.pretty)(options "")(descr ""))
+  (lib (name Crystal)(type KiCad)(uri ${KISYSMOD}/Crystal.pretty)(options "")(descr ""))
+  (lib (name ACIA_USB)(type KiCad)(uri ${KIPRJMOD}/ACIA_USB.pretty)(options "")(descr ""))
+)
