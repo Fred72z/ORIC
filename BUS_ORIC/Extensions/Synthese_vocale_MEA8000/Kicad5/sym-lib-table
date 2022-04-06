@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Transistor_BJT)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transistor_BJT.lib)(options "")(descr ""))
+  (lib (name 8bits_Interface)(type Legacy)(uri ${KIPRJMOD}/8bits_Interface.lib)(options "")(descr ""))
+  (lib (name MEA8000-rescue)(type Legacy)(uri ${KIPRJMOD}/MEA8000-rescue.lib)(options "")(descr ""))
+)
