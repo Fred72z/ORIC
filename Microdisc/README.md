@@ -7,12 +7,12 @@ Ils sont presque identiques sauf au niveau des buffers 74HCT541 pour la version 
 
 __Version 3.2 (lecteur 3.5")__
 
-![Contrôleur_3.2](/Vue_pcb_V3.2.jpg?raw=true "Optional Title")
+![Contrôleur_3.2](./Vue_pcb_V3.2.jpg?raw=true "Optional Title")
 
 
 __Version 3.4 (lecteur Gotek)__
 
-![Contrôleur_3.4](/Vue_pcb_V3.4.jpg?raw=true "Optional Title")
+![Contrôleur_3.4](./Vue_pcb_V3.4.jpg?raw=true "Optional Title")
 
 Le fonctionnement reste identique au microdisc d'origine.
 
