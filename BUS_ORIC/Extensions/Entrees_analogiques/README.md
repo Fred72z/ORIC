@@ -6,7 +6,7 @@ Elle reprend le principe des cartes mageco disponibles sur de nombreux micros de
 Elle est équipée de 8 filtres d'entrées permettant d'assurer une relative stabilité des signaux.
 Elle occupe un seul octet à l'adresse 3F8 ou 3F9. Le choix de l'adresse se fait par un cavalier.
 
-![Platine d'extension](/Extensions/Entrees_analogiques/8EA_Oric.jpg?raw=true "Optional Title")
+![Platine d'extension](./8EA_Oric.jpg?raw=true "Optional Title")
 
 __Utilisation:__
 
