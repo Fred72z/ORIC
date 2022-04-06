@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connector_Dsub)(type KiCad)(uri ${KISYSMOD}/Connector_Dsub.pretty)(options "")(descr ""))
+  (lib (name ACIA_RS232)(type KiCad)(uri ${KIPRJMOD}/ACIA_RS232.pretty)(options "")(descr ""))
+)

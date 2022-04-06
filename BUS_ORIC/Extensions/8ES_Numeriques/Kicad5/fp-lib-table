@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 8ESN)(type KiCad)(uri ${KIPRJMOD}/8ESN.pretty)(options "")(descr ""))
+)
