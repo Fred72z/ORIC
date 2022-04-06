@@ -5,7 +5,7 @@ Cette platine se branche sur la platine d'extension de bus et permet d'ajouter 8
 Elle reprend le principe des cartes mageco disponibles sur de nombreux micros de cette époque.
 Elle est équipée de 16 Leds qui sont allumées pour un état "0". Elle occupe un seul octet à l'adresse 3FA ou 3FB. Le choix de l'adresse se fait avec un petit commutateur DIP.
 
-![Platine d'extension](/Extensions/8ES_Numeriques/8ES_logiques.jpg?raw=true "Optional Title")
+![Platine d'extension](./8ES_logiques.jpg?raw=true "Optional Title")
 
 __Utilisation des Sorties:__
 
