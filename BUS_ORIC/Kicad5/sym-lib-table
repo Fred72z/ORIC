@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Oric_BUS-rescue)(type Legacy)(uri ${KIPRJMOD}/Oric_BUS-rescue.lib)(options "")(descr ""))
+)

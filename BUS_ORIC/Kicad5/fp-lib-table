@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name w_conn_av)(type KiCad)(uri ${KISYSMOD}/w_conn_av.pretty)(options "")(descr ""))
+  (lib (name w_logo)(type KiCad)(uri ${KISYSMOD}/w_logo.pretty)(options "")(descr ""))
+  (lib (name Oric_BUS)(type KiCad)(uri ${KIPRJMOD}/Oric_BUS.pretty)(options "")(descr ""))
+)
