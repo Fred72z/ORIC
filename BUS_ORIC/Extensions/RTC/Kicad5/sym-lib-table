@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Transistor_BJT)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transistor_BJT.lib)(options "")(descr ""))
+  (lib (name Logic_Programmable)(type Legacy)(uri "C:/Program Files/KiCad5/share/kicad/library/Logic_Programmable.lib")(options "")(descr ""))
+)

@@ -1,0 +1,40 @@
+%SIGNAL
+PIN   9 =  A0 
+PIN   8 =  A1 
+PIN   7 =  A2 
+PIN   6 =  A3 
+PIN   5 =  A4 
+PIN   4 =  A5 
+PIN   3 =  A6 
+PIN   2 =  A7 
+PIN  19 =  PHI 
+PIN  11 =  RnW 
+PIN  12 =  nCSRTC 
+PIN   1 =  nIO 
+PIN  17 =  nIOCRTL 
+PIN  13 =  nRRTC 
+PIN  14 =  nWRTC 
+%END
+
+%FIELD
+FIELD ADDRESS = A7,A6,A5,A4,A3,A2,A1,A0
+%END
+
+%EQUATION
+!nCSRTC =>
+    !A4 & A5 & A6 & !A7 & !nIO
+  # !A1 & !A2 & !A3 & A4 & A5 & A6 & !A7 & !nIO
+
+!nIOCRTL =>
+    !A4 & A5 & A6 & !A7 & !nIO
+  # !A1 & !A2 & !A3 & A4 & A5 & A6 & !A7 & !nIO
+
+!nRRTC =>
+    !A1 & !A2 & !A3 & A4 & A5 & A6 & !A7 & PHI & RnW & !nIO
+  # !A4 & A5 & A6 & !A7 & PHI & RnW & !nIO
+
+!nWRTC =>
+    !A1 & !A2 & !A3 & A4 & A5 & A6 & !A7 & PHI & !RnW & !nIO
+  # !A4 & A5 & A6 & !A7 & PHI & !RnW & !nIO
+
+%END

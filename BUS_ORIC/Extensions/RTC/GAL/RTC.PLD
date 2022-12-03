@@ -1,0 +1,47 @@
+Name     RTC ;
+PartNo   00 ;
+Date     19/11/2022 ;
+Revision 01 ;
+Designer Fred72 ;
+Company  Fred_Corp ;
+Assembly None ;
+Location  ;
+Device   g16v8a ;
+
+/* *************** INPUT PINS *********************/
+PIN   1  = nIO ;
+PIN   2  = A7  ; 
+PIN   3  = A6  ; 
+PIN   4  = A5  ; 
+PIN   5  = A4  ; 
+PIN   6  = A3  ; 
+PIN   7  = A2  ; 
+PIN   8  = A1  ; 
+PIN   9  = A0  ; 
+PIN   11 = RnW ; 
+PIN   19 = PHI ; 
+
+
+/* *************** OUTPUT PINS *********************/
+PIN  12  = nCSRTC ;
+PIN  13  = nRRTC ;
+PIN  14  = nWRTC ;
+PIN  17  = nIOCRTL ;
+
+
+/* *************** EQUATIONS *********************/
+
+FIELD ADDRESS =[A7..0];
+
+!nCSRTC = !nIO & ADDRESS:[360..371];
+!nIOCRTL = !nIO & ADDRESS:[360..371];
+!nRRTC = !nIO & ADDRESS:[360..371] & RnW & PHI;
+!nWRTC = !nIO & ADDRESS:[360..371] & !RnW & PHI;
+
+
+
+
+
+
+
+
