@@ -1,5 +1,5 @@
 # Horloge RTC-pour-ORIC
-__Carte RTC l'oric__
+__Carte RTC pour l'oric__
 
 Cette platine se branche sur la platine d'extension de bus et permet d'ajouter une horloge RTC à l'ORIC.
 Elle donne les informations : Heures, Minutes et secondes ainsi que la date.
