@@ -3,7 +3,6 @@ __Carte RTC pour l'oric__
 
 Cette platine se branche sur la platine d'extension de bus et permet d'ajouter une horloge RTC à l'ORIC.
 Elle donne les informations : Heures, Minutes et secondes ainsi que la date.
-Elle était destinée au Telestrat mais fonctionne très bien sur l'ORIC 1 ou ATMOS.
 Elle occupe les adresses 360-371.
 
 ![Platine d'extension](./Interface_RTC_3D.png?raw=true "Optional Title")
