@@ -6,7 +6,7 @@ Elle donne les informations : Heures, Minutes et secondes ainsi que la date.
 Elle était destinée au Telestrat mais fonctionne très bien sur l'ORIC 1 ou ATMOS.
 Elle occupe les adresses 360-371.
 
-![Platine d'extension](./Interface_RTC_3D.jpg?raw=true "Optional Title")
+![Platine d'extension](./Interface_RTC_3D.png?raw=true "Optional Title")
 
 __Utilisation:__
 
