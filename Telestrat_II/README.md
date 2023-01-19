@@ -5,3 +5,7 @@ La machine est un mix entre l'ORIC ATMOS et le TELESTRAT. Elle dispose de 8 mode
 Elle est parfaitement compatible avec ses prédécesseurs ORIC1/ATMOS et microdisc.
 
 [Photos à venir]
+
+
+
+![Platine principale](./Platine_principale.jpg?raw=true "Optional Title")
