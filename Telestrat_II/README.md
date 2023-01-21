@@ -6,7 +6,7 @@ Elle est parfaitement compatible avec ses prédécesseurs ORIC1/ATMOS et microdi
 
 [Photos à venir]
 
-![Mode ORIC1](./mode_oric1.jpg?raw=true "Optional Title")
+![Mode ORIC1](./Mode_ORIC1.JPG?raw=true "Optional Title")
 
 ![Mode ATMOS SEDORIC](./mode_atmos_sedoric.jpg?raw=true "Optional Title")
 
