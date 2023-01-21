@@ -4,8 +4,6 @@ En plus des caractéristiques du TELESTRAT, la machine dispose en interne d'une 
 La machine est un mix entre l'ORIC ATMOS et le TELESTRAT. Elle dispose de 8 modes de fonctionnement allant de l'ORIC1 au TELESTRAT.
 Elle est parfaitement compatible avec ses prédécesseurs ORIC1/ATMOS et microdisc.
 
-[Photos à venir]
-
 Mode ORIC1
 ![Mode ORIC1](./Mode_ORIC1.JPG?raw=true "Optional Title")
 
@@ -16,7 +14,7 @@ Mode TELESTRAT HYPERBASIC
 ![Mode TELESTRAT HYPERBASIC](./Mode_TELESTRAT.JPG?raw=true "Optional Title")
 
 Intérieur de la boîte
-![Intérieur](./Interieur.JPG?raw=true "Optional Title")**
+![Intérieur](./Interieur.JPG?raw=true "Optional Title")
 
 Platine principale seule
 ![Platine principale](./Platine_principale.jpg?raw=true "Optional Title")
