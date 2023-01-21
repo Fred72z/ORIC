@@ -6,6 +6,10 @@ Elle est parfaitement compatible avec ses prédécesseurs ORIC1/ATMOS et microdi
 
 [Photos à venir]
 
+![Mode ORIC1](./mode_oric1.jpg?raw=true "Optional Title")
 
+![Mode ATMOS SEDORIC](./mode_atmos_sedoric.jpg?raw=true "Optional Title")
+
+![Mode TELESTRAT HYPERBASIC](./mode_telestrat.jpg?raw=true "Optional Title")
 
 ![Platine principale](./Platine_principale.jpg?raw=true "Optional Title")
