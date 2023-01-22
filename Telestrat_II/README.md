@@ -118,3 +118,10 @@ Les connecteurs sont tous disposés à l'arrière de la machine à l'exception d
 - 8 : GND
 - 9 : TIR3
 
+# Modes de fonctionnement
+
+Le Telestrat II dispose de 8 modes différents permettant de reproduire le fonctionnement de l'ORIC1, l'oric ATMOS ou l'oric TELESTRAT. Ces modes sont sélectionnés grace à 3 micro-interrupteurs "piano" accessibles à l'arrière de la machine.
+
+![Modes](./Modes.jpg?raw=true "Optional Title")
+
+
