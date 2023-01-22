@@ -22,9 +22,9 @@ Platine principale seule
 
 # Connecteurs
 
+Les connecteurs sont tous disposés à l'arrière de la machine à l'exception du port d'extension placé sur la carte mère.
 ![Connecteurs](./Connecteurs_AR.jpg?raw=true "Optional Title")
 
-Les connecteurs sont tous disposés à l'arrière de la machine à l'exception du port d'extension placé sur la carte mère.
 ![Brochages](./Brochages.jpg?raw=true "Optional Title")
 
 **AUDIO/VIDEO**
