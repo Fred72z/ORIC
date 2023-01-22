@@ -118,6 +118,12 @@ Les connecteurs sont tous disposés à l'arrière de la machine à l'exception d
 - 8 : GND
 - 9 : TIR3
 
+**EXPANSION**
+Un port d'extension est placé sur la carte principale. Il permet d'ajouter des périphériques en page 3 uniquement. Son brochage est le suivant:
+[à venir]
+
+
+
 # Modes de fonctionnement
 
 Le Telestrat II dispose de 8 modes différents permettant de reproduire le fonctionnement de l'ORIC1, l'oric ATMOS ou l'oric TELESTRAT. Ces modes sont sélectionnés grace à 3 micro-interrupteurs "piano" accessibles à l'arrière de la machine.
