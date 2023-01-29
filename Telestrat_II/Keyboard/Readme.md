@@ -1,8 +1,10 @@
 # CLAVIER TELESTRAT II
 
-En attendant de trouver une solution plus élégante avc un mini clavier PC.
-Le clavier est constitué de touches GATERON (rouge) avec des cabochons noirs et rouges (style ORIC oblige).
-La barre d'espace reçoit 2 touches afin de l'équilibrer. les autres touches sont uniques.
+[En attendant de trouver une solution plus élégante avc un mini clavier PC.]
+
+Le clavier est constitué d'un circuit imprimé recevant des touches GATERON (rouge) avec des cabochons noirs et rouges (style ORIC oblige).
+La barre d'espace reçoit 2 touches afin de l'équilibrer (une seule touche sur les photos). Les autres touches sont uniques.
+Le bo
 
 
 ![Clavier TELESTRAT II](./clavier_TELESTRAT_II.JPG?raw=true "Optional Title")
