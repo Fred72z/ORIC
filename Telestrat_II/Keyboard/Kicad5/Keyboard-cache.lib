@@ -1,0 +1,140 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 4xxx_4051
+#
+DEF 4xxx_4051 U 0 40 Y Y 1 L N
+F0 "U" -300 750 50 H V C CNN
+F1 "4xxx_4051" -300 -750 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DIP?16*
+$ENDFPLIST
+DRAW
+S -300 700 300 -700 1 1 10 f
+X X4 1 -500 200 200 R 50 50 1 0 P
+X B 10 -500 -500 200 R 50 50 1 0 I
+X A 11 -500 -400 200 R 50 50 1 0 I
+X X3 12 -500 300 200 R 50 50 1 0 P
+X X0 13 -500 600 200 R 50 50 1 0 P
+X X1 14 -500 500 200 R 50 50 1 0 P
+X X2 15 -500 400 200 R 50 50 1 0 P
+X VDD 16 0 900 200 D 50 50 1 0 W
+X X6 2 -500 0 200 R 50 50 1 0 P
+X X 3 500 600 200 L 50 50 1 0 P
+X X7 4 -500 -100 200 R 50 50 1 0 P
+X X5 5 -500 100 200 R 50 50 1 0 P
+X Inh 6 -500 -300 200 R 50 50 1 0 I
+X VEE 7 100 -900 200 U 50 50 1 0 W
+X VSS 8 0 -900 200 U 50 50 1 0 W
+X C 9 -500 -600 200 R 50 50 1 0 I
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x07_Odd_Even
+#
+DEF Connector_Generic_Conn_02x07_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 400 50 H V C CNN
+F1 "Connector_Generic_Conn_02x07_Odd_Even" 50 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 350 150 -350 1 1 10 f
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+X Pin_1 1 -200 300 150 R 50 50 1 1 P
+X Pin_10 10 300 -100 150 L 50 50 1 1 P
+X Pin_11 11 -200 -200 150 R 50 50 1 1 P
+X Pin_12 12 300 -200 150 L 50 50 1 1 P
+X Pin_13 13 -200 -300 150 R 50 50 1 1 P
+X Pin_14 14 300 -300 150 L 50 50 1 1 P
+X Pin_2 2 300 300 150 L 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 300 200 150 L 50 50 1 1 P
+X Pin_5 5 -200 100 150 R 50 50 1 1 P
+X Pin_6 6 300 100 150 L 50 50 1 1 P
+X Pin_7 7 -200 0 150 R 50 50 1 1 P
+X Pin_8 8 300 0 150 L 50 50 1 1 P
+X Pin_9 9 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Keyboard-rescue_+5V-power-Jupiter-II_keyboard-rescue
+#
+DEF Keyboard-rescue_+5V-power-Jupiter-II_keyboard-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Keyboard-rescue_+5V-power-Jupiter-II_keyboard-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Keyboard-rescue_MountingHole-Mechanical-Jupiter-II_keyboard-rescue
+#
+DEF Keyboard-rescue_MountingHole-Mechanical-Jupiter-II_keyboard-rescue H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Keyboard-rescue_MountingHole-Mechanical-Jupiter-II_keyboard-rescue" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push_45deg
+#
+DEF Switch_SW_Push_45deg SW 0 40 N N 1 F N
+F0 "SW" 120 40 50 H V L CNN
+F1 "Switch_SW_Push_45deg" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -46 46 20 0 1 0 N
+C 45 -47 20 0 1 0 N
+P 2 0 1 0 -20 100 100 -20 N
+P 2 0 1 0 40 40 80 80 N
+P 3 0 1 0 -100 100 -60 60 -60 60 N
+P 4 0 1 0 60 -60 100 -100 100 -100 100 -100 N
+X 1 1 -100 100 0 R 50 50 0 1 P
+X 2 2 100 -100 0 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
