@@ -5,7 +5,7 @@ Le clavier est constitué de touches GATERON (rouge) avec des cabochons noirs et
 La barre d'espace reçoit 2 touches afin de l'équilibrer. les autres touches sont uniques.
 
 
-![Clavier TELESTRAT II](./Clavier_TELESTRAT_II.JPG?raw=true "Optional Title")
+![Clavier TELESTRAT II](./clavier_TELESTRAT_II.JPG?raw=true "Optional Title")
 
 ![Pcb Clavier](./pcb_clavier.JPG?raw=true "Optional Title")
 
