@@ -7,4 +7,4 @@ La barre d'espace reçoit 2 touches afin de l'équilibrer (une seule touche sur 
 Le boîtier est imprimé en 3D.
 
 
-![Clavier TELESTRAT II](./Clavier_TELESTRAT_II.JPG?raw=true "Optional Title")
+![Clavier TELESTRAT II](./Clavier_TELESTRAT_II.jpg?raw=true "Optional Title")
