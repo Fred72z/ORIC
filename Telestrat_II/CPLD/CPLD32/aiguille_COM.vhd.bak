@@ -1,0 +1,41 @@
+-- Aiguillage COM vers RS ou Minitel
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity aiguille_COM is
+	port 
+	(
+		TxD : in std_logic;
+		DTR : in std_logic;
+		DTR_CH : in std_logic;
+		RxD_CH : in std_logic;
+		TEL_CARR : in std_logic;
+		TEL_IN : in std_logic;
+		PA4 : in std_logic;
+		
+		DCD : out std_logic;
+		RxD : out std_logic;
+		DCD_CH : out std_logic;
+		TxD_CH : out std_logic;
+		TEL_OUT : out std_logic
+	);
+end aiguille_COM;
+
+
+
+architecture dir_COM of decodage is
+
+begin
+
+	TxD_CH <= TxD when PA4='1' else '1';
+	DCD_CH <= DTR when PA4='1' else '1';
+	DCD <= DTR_CH when PA4='1' else TEL_CARR;
+	RxD <= RxD_CH when PA4='1' else TEL_IN;
+	
+	TEL_OUT <= TxD when PA4='0' else '1';
+	
+	
+	
+	
+	
+end dir_COM;
