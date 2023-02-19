@@ -1,0 +1,47 @@
+-- Decodage des adresses de la page 3
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity decodage is
+	port 
+	(
+		A2 : in std_logic;
+		A3 : in std_logic;
+		A4 : in std_logic;
+		A5 : in std_logic;
+		A6 : in std_logic;
+		A7 : in std_logic;
+		nIO: in std_logic;
+		PHI: in std_logic;
+		RW : in std_logic;
+		nWR_RTC : out std_logic;
+		nRD_RTC : out std_logic;
+		nVIA1 : out std_logic;
+		nVIA2 : out std_logic;
+		nACIA : out std_logic;
+		n1793 : out std_logic;
+		n314 : out std_logic;
+		n318 : out std_logic
+	);
+end decodage;
+
+
+
+architecture decode of decodage is
+
+signal ADR: std_logic_vector (7 downto 0);
+
+begin
+	
+	ADR <= A7 & A6 & A5 & A4 & A3 & A2 & "00";
+	
+	nWR_RTC <='0' when (nIO='0' and (ADR>=x"60") and (ADR<=x"71") and RW='0' and PHI='1') else '1';				-- [360-371] WR
+	nRD_RTC <='0' when (nIO='0' and (ADR>=x"60") and (ADR<=x"71") and RW='1' and PHI='1') else '1';				-- [360-371] RD
+	nVIA1 <= '0' when (nIO='0' and (ADR>=x"00") and (ADR<=x"0F")) else '1';						-- [300-30F]
+	n1793 <= '0' when (nIO='0' and (ADR>=x"10") and (ADR<=x"13")) else '1';						-- [310-313]
+	n314 <= '0' when (nIO='0' and (ADR>=x"14") and (ADR<=x"17")) else '1';					-- [314-317]
+	n318 <= '0' when (nIO='0' and (ADR>=x"18") and (ADR<=x"1B")) else '1';					-- [318-31B]
+	nACIA <= '0' when (nIO='0' and (ADR>=x"1C") and (ADR<=x"1F")) else '1';						-- [31C-31F]
+	nVIA2 <= '0' when (nIO='0' and (ADR>=x"20") and (ADR<=x"2F")) else '1';						-- [320-32F]
+	
+end decode;

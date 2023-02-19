@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'div_freq:inst1|74161:inst6|p74161:sub|8'
+Slack : -9.000
+TNS   : -315.000
+
+Type  : Setup '12MHz'
+Slack : -9.000
+TNS   : -54.000
+
+Type  : Setup 'div_freq:inst1|7493:inst|14'
+Slack : -9.000
+TNS   : -18.000
+
+Type  : Hold 'div_freq:inst1|7493:inst|14'
+Slack : -8.000
+TNS   : -8.000
+
+Type  : Hold '12MHz'
+Slack : 1.500
+TNS   : 0.000
+
+Type  : Hold 'div_freq:inst1|74161:inst6|p74161:sub|8'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Recovery 'STEP'
+Slack : -27.500
+TNS   : -39.000
+
+Type  : Recovery 'div_freq:inst1|74161:inst6|p74161:sub|8'
+Slack : -17.500
+TNS   : -512.500
+
+Type  : Recovery '12MHz'
+Slack : -17.500
+TNS   : -101.500
+
+Type  : Recovery 'HLD'
+Slack : -11.500
+TNS   : -11.500
+
+Type  : Recovery 'PHI2'
+Slack : -7.500
+TNS   : -7.500
+
+Type  : Removal '12MHz'
+Slack : 3.500
+TNS   : 0.000
+
+Type  : Removal 'PHI2'
+Slack : 3.500
+TNS   : 0.000
+
+Type  : Removal 'HLD'
+Slack : 7.500
+TNS   : 0.000
+
+Type  : Removal 'STEP'
+Slack : 7.500
+TNS   : 0.000
+
+Type  : Removal 'div_freq:inst1|74161:inst6|p74161:sub|8'
+Slack : 8.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'div_freq:inst1|74161:inst6|p74161:sub|8'
+Slack : -3.500
+TNS   : -245.000
+
+Type  : Minimum Pulse Width '12MHz'
+Slack : -3.500
+TNS   : -49.000
+
+Type  : Minimum Pulse Width 'PHI2'
+Slack : -3.500
+TNS   : -49.000
+
+Type  : Minimum Pulse Width 'STEP'
+Slack : -3.500
+TNS   : -14.000
+
+Type  : Minimum Pulse Width 'div_freq:inst1|7493:inst|14'
+Slack : -3.500
+TNS   : -14.000
+
+Type  : Minimum Pulse Width 'HLD'
+Slack : -3.500
+TNS   : -7.000
+
+------------------------------------------------------------
