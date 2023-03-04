@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Display)(type KiCad)(uri ${KISYSMOD}/Display.pretty)(options "")(descr ""))
+  (lib (name Display_7Segment)(type KiCad)(uri ${KISYSMOD}/Display_7Segment.pretty)(options "")(descr ""))
+)
