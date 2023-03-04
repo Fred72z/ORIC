@@ -4,7 +4,7 @@ Ensemble de platines pouvant se connecter sur un boitier principal connecté au 
 
 #MICRODISC
 
-Carte contrôleur Microdisc pouvant se loger sour un lecteur de disquettes (ou GOTEK).
+Carte contrôleur Microdisc pouvant se loger sous un lecteur de disquettes (ou GOTEK).
 
 #SCHEMA MATERIEL
 
