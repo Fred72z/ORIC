@@ -20,9 +20,30 @@ Les branchements sont indiqués sur la figure ci-dessous. La longeur des fils es
 
 ![Branchement Gotek](./Branchement_Gotek.jpg?raw=true "Optional Title")
 
+
 # Platine d'affichage
 
 ![Platine Affichage](./Platine_Aff.jpg?raw=true "Optional Title")
 
 Les composants récupérés de la platine d'affichage du Gotek sont montés sur cette platine. L'afficheur doit être surélevé de 7mm (espace entre le pcb et le dessous de l'afficheur) par rapport au pcb à l'aide de petits morceaux de fil rigide.
-La prise USB est récupéré de la platine USB du boîtier. Les boutons poussoirs sont des modèles 6x6mm avec une hauteur de 6mm.
+La prise USB est récupérée de la platine USB du boîtier. Les boutons poussoirs sont des modèles 6x6mm avec une hauteur de 6mm.
+
+
+# Modification du boîtier
+
+La face arrière du boîtier doit être modifiéepour laisser passer les connecteurs. Pour cela, il faut faire une découpe à la lime de 3mm au niveau du connecteur DE9 et de 1mm au dessus du connecteur IDC14.
+Une fois la découpe du connecteur DE9 effectuée, il suffit de mettre le pcb en place pour reporter les limites du connecteur IDC afin de faire sa découpe.
+
+![Modification de la face arrière](./Modification_boitier.jpg?raw=true "Optional Title")
+
+# Modification de la façade
+
+La façade doit être modifiée pour accueillir la nouvelle platine d'affichage.
+En partant du trou du connecteur USB de droite, il suffit d'élargir l'ouverture selon les dimensions indiquées puis de coller un petit morceau de plexiglass rouge.
+L'ajustement des boutons poussoirs est faciliter par une pièce 3D qui vient faire la jonction entre la façade et les boutons du pcb.
+
+![Modification de la façade](./Modification_facade.jpg?raw=true "Optional Title")
+
+![Modification de la façade](./modif_facade.JPG?raw=true "Optional Title")
+
+
