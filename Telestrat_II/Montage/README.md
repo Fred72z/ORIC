@@ -13,6 +13,8 @@ La led est remplacée par une barette de 2 contacts à 90° au pas de 2.54mm afi
 La barette de configuration du Gotek peut être laissée en place.  Dans ce cas il n'est pas possible de mettre la barre de support des lecteurs 2.5". Comme elle ne sert pas, ce n'est pas grave.
 Elle peut aussi être remplacée par une barette de contacts à 90°. Dans ce cas, la barre peut être mise en place et les contacts restent accessibles.
 
+Seul le cavalier S0 (3 ème en partant de la gauche) doit être en place. Il est possible d'ajouter un buzzer sur les bornes JB (4 ème en partant de la gauche)
+
 Les connexions vers la nouvelle platine d'affichage sont assurées par 2 connecteurs XH à 4 et 6 contacts.
 Les branchements sont indiqués sur la figure ci-dessous.
 
