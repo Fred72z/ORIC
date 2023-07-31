@@ -21,3 +21,8 @@ Les branchements sont indiqués sur la figure ci-dessous. La longeur des fils es
 ![Branchement Gotek](./Branchement_Gotek.jpg?raw=true "Optional Title")
 
 # Platine d'affichage
+
+![Platine Affichage](./Platine_Aff.jpg?raw=true "Optional Title")
+
+Les composants récupérés de la platine d'affichage du Gotek sont montés sur cette platine. L'afficheur doit être surélevé de 7mm (espace entre le pcb et le dessous de l'afficheur) par rapport au pcb à l'aide de petits morceaux de fil rigide.
+La prise USB est récupéré de la platine USB du boîtier. Les boutons poussoirs sont des modèles 6x6mm avec une hauteur de 6mm.
