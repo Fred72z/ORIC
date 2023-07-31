@@ -31,7 +31,7 @@ La prise USB est récupérée de la platine USB du boîtier. Les boutons poussoi
 
 # Modification du boîtier
 
-La face arrière du boîtier doit être modifiéepour laisser passer les connecteurs. Pour cela, il faut faire une découpe à la lime de 3mm au niveau du connecteur DE9 et de 1mm au dessus du connecteur IDC14.
+La face arrière du boîtier doit être modifiée pour laisser passer les connecteurs. Pour cela, il faut faire une découpe à la lime de 3mm au niveau du connecteur DE9 et de 1mm au dessus du connecteur IDC14.
 Une fois la découpe du connecteur DE9 effectuée, il suffit de mettre le pcb en place pour reporter les limites du connecteur IDC afin de faire sa découpe.
 
 ![Modification de la face arrière](./Modification_boitier.jpg?raw=true "Optional Title")
@@ -40,7 +40,7 @@ Une fois la découpe du connecteur DE9 effectuée, il suffit de mettre le pcb en
 
 La façade doit être modifiée pour accueillir la nouvelle platine d'affichage.
 En partant du trou du connecteur USB de droite, il suffit d'élargir l'ouverture selon les dimensions indiquées puis de coller un petit morceau de plexiglass rouge.
-L'ajustement des boutons poussoirs est faciliter par une pièce 3D qui vient faire la jonction entre la façade et les boutons du pcb.
+L'ajustement des boutons poussoirs est facilité par une pièce 3D qui vient faire la jonction entre la façade et les boutons du pcb.
 
 ![Modification de la façade](./Modification_facade.jpg?raw=true "Optional Title")
 
