@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name Transistor_BJT)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transistor_BJT.lib)(options "")(descr ""))
+  (lib (name Logic_Programmable)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_Programmable.lib)(options "")(descr ""))
+  (lib (name CPLD_Altera)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPLD_Altera.lib)(options "")(descr ""))
+  (lib (name Memory_EEPROM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_EEPROM.lib)(options "")(descr ""))
+  (lib (name Memory_EPROM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_EPROM.lib)(options "")(descr ""))
+  (lib (name Interface)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface.lib)(options "")(descr ""))
+  (lib (name Logic_LevelTranslator)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_LevelTranslator.lib)(options "")(descr ""))
+  (lib (name EREBUS_MX3-rescue)(type Legacy)(uri ${KIPRJMOD}/EREBUS_MX3-rescue.lib)(options "")(descr ""))
+  (lib (name EREBUS-rescue)(type Legacy)(uri ${KIPRJMOD}/EREBUS-rescue.lib)(options "")(descr ""))
+)

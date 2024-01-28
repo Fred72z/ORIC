@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Connector_Card)(type KiCad)(uri ${KISYSMOD}/Connector_Card.pretty)(options "")(descr ""))
+  (lib (name Package_TO_SOT_SMD)(type KiCad)(uri ${KISYSMOD}/Package_TO_SOT_SMD.pretty)(options "")(descr ""))
+  (lib (name Package_LCC)(type KiCad)(uri ${KISYSMOD}/Package_LCC.pretty)(options "")(descr ""))
+)
