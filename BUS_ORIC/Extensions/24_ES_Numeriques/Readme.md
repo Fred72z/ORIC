@@ -11,6 +11,10 @@ Elle occupe les adresses 3FA à 3FD.
 __Exemple de programme:__
 
 10 REM Place les PORTS A, B et C en sortie
+
 15 POKE #3FD,128
+
 20 REM envoi 85 sur le PORTA
+
 25 POKE #3FA,85
+
