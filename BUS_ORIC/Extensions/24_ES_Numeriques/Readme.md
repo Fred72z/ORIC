@@ -18,3 +18,4 @@ __Exemple de programme:__
 
 25 POKE #3FA,85
 
+Un document donne une dizaine d'exercices à faire avec cette carte.
