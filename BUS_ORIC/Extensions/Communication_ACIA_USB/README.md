@@ -20,3 +20,6 @@ Elle occupe les mêmes adresses que l'ACIA du telestrat soit 31C-31F
     90 PRINT CHR$(PEEK(#31C));
     100 GOTO 80
 
+Ce programme s'utilise avec l'hyperterminal ou la console série Arduino. Les paramètres sont 9600 bauds, 8 bits, 1 bit de stop, pas de parité et sans contrôle de flux.
+La partie Emission envoie le message "HELLO" vers le PC.
+La partie Reception affiche les caractères envoyés par le PC sur l'écran de l'Oric.
