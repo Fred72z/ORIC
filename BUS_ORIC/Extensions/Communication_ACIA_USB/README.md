@@ -12,7 +12,7 @@ Elle occupe les mêmes adresses que l'ACIA du telestrat soit 31C-31F
     15 REM EMISSION
     20 A$="HELLO"
     30 FOR I=1 TO LEN(A$)
-    40 IF (PEEK(#31D) AND 16)<>16 THEN 40"
+    40 IF (PEEK(#31D) AND 16)<>16 THEN 40
     50 POKE #31C,ASC(MID$(A$,I,1))
     60 NEXT
     70 REM RECEPTION
