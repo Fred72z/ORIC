@@ -1,0 +1,52 @@
+-- Decodage des adresses de la page 3
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity select_ROM is
+	port 
+	(
+		PA2 : in std_logic;
+		PA1 : in std_logic;
+		PA0 : in std_logic;
+		CxFx : in std_logic;
+		BANK3 : in std_logic;
+		RW : in std_logic;
+		nCS7 : out std_logic;
+		A14M : out std_logic;
+		A15M : out std_logic;
+		nCSRAM : out std_logic;
+		nCSROM : out std_logic
+	);
+end select_ROM;
+
+
+
+architecture sel_ROM of select_ROM is
+
+signal PA: std_logic_vector (3 downto 0);
+
+begin
+
+	PA <= CxFx & PA2 & PA1 & PA0;
+
+	A14M <= PA0;
+	A15M <= PA1;
+	
+-- RAM interne	 --
+	nCS7 <='0' when PA="1000" else '1';
+	
+-- ROM (bank 5,6,7,[3])	 --	
+	nCSROM <='0' when PA="1101" and RW='1' else
+				'0' when PA="1110" and RW='1' else
+				'0' when PA="1111" and RW='1' else
+				'1';
+				
+-- RAM exp(bank 1,2,[3],4)	 --				 
+	nCSRAM <='0' when PA="1001" else
+				'0' when PA="1010" else
+				'0' when PA="1011" else
+				'0' when PA="1100"
+				else '1';
+	
+	
+end sel_ROM;
