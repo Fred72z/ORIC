@@ -1,0 +1,621 @@
+|CPLD128_Telestrat
+nVIA1 <= decodage:inst7.nVIA1
+A2 => decodage:inst7.A2
+A3 => decodage:inst7.A3
+A4 => decodage:inst7.A4
+A5 => decodage:inst7.A5
+A6 => decodage:inst7.A6
+A7 => decodage:inst7.A7
+nIO => decodage:inst7.nIO
+PHI2 => decodage:inst7.PHI
+PHI2 => inst13.IN0
+PHI2 => sequenceur:inst6.PHI
+RW => decodage:inst7.RW
+RW => inst22.IN0
+RW => select_ROM:inst4.RW
+RW => MB8877_logic:inst19.RW
+nVIA2 <= decodage:inst7.nVIA2
+CLK_1MHz <= div_freq:inst1.CLK/12
+12MHz => div_freq:inst1.CLK
+12MHz => sequenceur:inst6.CLK
+CLK_4MHz <= div_freq:inst1.CLK/3
+nACIA <= decodage:inst7.nACIA
+nCSRAM <= select_ROM:inst4.nCSRAM
+PA2 => select_ROM:inst4.PA2
+PA1 => select_ROM:inst4.PA1
+PA0 => select_ROM:inst4.PA0
+A15 => inst5.IN0
+A14 => inst5.IN1
+A13 => select_ROM:inst4.A13
+D0 <> TR_245:inst15.A0
+D1 <> TR_245:inst15.A1
+D4 <> TR_245:inst15.A4
+D5 <> TR_245:inst15.A5
+D6 <> TR_245:inst15.A6
+D7 <> TR_245:inst15.A7
+D7 <> MB8877_logic:inst19.D7
+RESET => Reg_273:inst20.RST_273
+HLD => Reg_273:inst20.HLD
+HLD => HLT_8877:inst12.HLD
+MODE1 => select_ROM:inst4.MODE1
+MODE2 => select_ROM:inst4.MODE2
+MODE3 => select_ROM:inst4.MODE3
+nCSROM <= select_ROM:inst4.nCSROM
+A14M <= select_ROM:inst4.A14M
+A15M <= select_ROM:inst4.A15M
+RDB <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+RD_DATA => inst11.IN0
+RD_DATA => inst11.IN1
+nMAP <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+nCS1793 <= decodage:inst7.n1793
+WE <= MB8877_logic:inst19.WE
+DRQ1793 => MB8877_logic:inst19.DRQ1793
+IRQ1793 => MB8877_logic:inst19.IRQ1793
+RE <= MB8877_logic:inst19.RE
+nIRQ <= MB8877_logic:inst19.IRQ
+SS <= Reg_273:inst20.SS
+DS0 <= Reg_273:inst20.DS0
+DS1 <= Reg_273:inst20.DS1
+HLT <= HLT_8877:inst12.HLT
+STEP => HLT_8877:inst12.STEP
+A16M <= select_ROM:inst4.A16M
+nWR_RTC <= decodage:inst7.nWR_RTC
+nRD_RTC <= decodage:inst7.nRD_RTC
+DF0 <> TR_245:inst15.B0
+DF1 <> TR_245:inst15.B1
+D2 <> TR_245:inst15.A2
+DF2 <> TR_245:inst15.B2
+D3 <> TR_245:inst15.A3
+DF3 <> TR_245:inst15.B3
+DF4 <> TR_245:inst15.B4
+DF5 <> TR_245:inst15.B5
+DF6 <> TR_245:inst15.B6
+DF7 <> TR_245:inst15.B7
+
+
+|CPLD128_Telestrat|decodage:inst7
+A2 => LessThan0.IN16
+A2 => LessThan1.IN16
+A2 => LessThan2.IN16
+A2 => LessThan3.IN16
+A2 => LessThan4.IN16
+A2 => LessThan5.IN16
+A2 => LessThan6.IN16
+A2 => LessThan7.IN16
+A2 => LessThan8.IN16
+A2 => LessThan9.IN16
+A2 => LessThan10.IN16
+A2 => LessThan11.IN16
+A2 => LessThan12.IN16
+A2 => LessThan13.IN16
+A3 => LessThan0.IN15
+A3 => LessThan1.IN15
+A3 => LessThan2.IN15
+A3 => LessThan3.IN15
+A3 => LessThan4.IN15
+A3 => LessThan5.IN15
+A3 => LessThan6.IN15
+A3 => LessThan7.IN15
+A3 => LessThan8.IN15
+A3 => LessThan9.IN15
+A3 => LessThan10.IN15
+A3 => LessThan11.IN15
+A3 => LessThan12.IN15
+A3 => LessThan13.IN15
+A4 => LessThan0.IN14
+A4 => LessThan1.IN14
+A4 => LessThan2.IN14
+A4 => LessThan3.IN14
+A4 => LessThan4.IN14
+A4 => LessThan5.IN14
+A4 => LessThan6.IN14
+A4 => LessThan7.IN14
+A4 => LessThan8.IN14
+A4 => LessThan9.IN14
+A4 => LessThan10.IN14
+A4 => LessThan11.IN14
+A4 => LessThan12.IN14
+A4 => LessThan13.IN14
+A5 => LessThan0.IN13
+A5 => LessThan1.IN13
+A5 => LessThan2.IN13
+A5 => LessThan3.IN13
+A5 => LessThan4.IN13
+A5 => LessThan5.IN13
+A5 => LessThan6.IN13
+A5 => LessThan7.IN13
+A5 => LessThan8.IN13
+A5 => LessThan9.IN13
+A5 => LessThan10.IN13
+A5 => LessThan11.IN13
+A5 => LessThan12.IN13
+A5 => LessThan13.IN13
+A6 => LessThan0.IN12
+A6 => LessThan1.IN12
+A6 => LessThan2.IN12
+A6 => LessThan3.IN12
+A6 => LessThan4.IN12
+A6 => LessThan5.IN12
+A6 => LessThan6.IN12
+A6 => LessThan7.IN12
+A6 => LessThan8.IN12
+A6 => LessThan9.IN12
+A6 => LessThan10.IN12
+A6 => LessThan11.IN12
+A6 => LessThan12.IN12
+A6 => LessThan13.IN12
+A7 => LessThan0.IN11
+A7 => LessThan1.IN11
+A7 => LessThan2.IN11
+A7 => LessThan3.IN11
+A7 => LessThan4.IN11
+A7 => LessThan5.IN11
+A7 => LessThan6.IN11
+A7 => LessThan7.IN11
+A7 => LessThan8.IN11
+A7 => LessThan9.IN11
+A7 => LessThan10.IN11
+A7 => LessThan11.IN11
+A7 => LessThan12.IN11
+A7 => LessThan13.IN11
+nIO => nWR_RTC.IN0
+PHI => nWR_RTC.IN1
+PHI => nRD_RTC.IN1
+RW => nWR_RTC.IN0
+RW => nRD_RTC.IN1
+nWR_RTC <= nWR_RTC.DB_MAX_OUTPUT_PORT_TYPE
+nRD_RTC <= nRD_RTC.DB_MAX_OUTPUT_PORT_TYPE
+nVIA1 <= nVIA1.DB_MAX_OUTPUT_PORT_TYPE
+nVIA2 <= nVIA2.DB_MAX_OUTPUT_PORT_TYPE
+nACIA <= nACIA.DB_MAX_OUTPUT_PORT_TYPE
+n1793 <= n1793.DB_MAX_OUTPUT_PORT_TYPE
+n314 <= n314.DB_MAX_OUTPUT_PORT_TYPE
+n318 <= n318.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|div_freq:inst1
+CLK/3 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst4.IN0
+CLK/12 <= 74161:inst6.QB
+
+
+|CPLD128_Telestrat|div_freq:inst1|7493:inst
+QD <= 13.DB_MAX_OUTPUT_PORT_TYPE
+RO1 => 1.IN0
+RO2 => 1.IN1
+CLKB => 44.IN0
+QC <= 14.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 15.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 16.DB_MAX_OUTPUT_PORT_TYPE
+CLKA => 43.IN0
+
+
+|CPLD128_Telestrat|div_freq:inst1|74161:inst6
+clk => p74161:sub.clk
+ldn => p74161:sub.ldn
+clrn => p74161:sub.clrn
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= p74161:sub.qd
+qc <= p74161:sub.qc
+qb <= p74161:sub.qb
+qa <= p74161:sub.qa
+rco <= p74161:sub.rco
+
+
+|CPLD128_Telestrat|div_freq:inst1|74161:inst6|p74161:sub
+RCO <= 41.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 8.ACLR
+CLRN => 9.ACLR
+CLRN => 7.ACLR
+CLRN => 6.ACLR
+CLK => 8.CLK
+CLK => 9.CLK
+CLK => 7.CLK
+CLK => 6.CLK
+LDN => 24.IN1
+LDN => 40.IN0
+LDN => 42.IN2
+LDN => 27.IN1
+LDN => 22.IN1
+LDN => 19.IN1
+B => 74.IN0
+ENT => 42.IN0
+ENT => 41.IN4
+ENT => 41.IN5
+ENP => 42.IN1
+A => 26.IN0
+C => 21.IN0
+D => 18.IN0
+QD <= 6.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 7.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 8.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|select_ROM:inst4
+PA2 => Equal6.IN3
+PA2 => Equal7.IN3
+PA2 => Equal8.IN3
+PA2 => Equal9.IN3
+PA2 => Equal10.IN3
+PA2 => Equal11.IN3
+PA2 => Equal12.IN3
+PA2 => Equal15.IN3
+PA1 => Equal6.IN4
+PA1 => Equal7.IN4
+PA1 => Equal8.IN4
+PA1 => Equal9.IN4
+PA1 => Equal10.IN4
+PA1 => Equal11.IN4
+PA1 => Equal12.IN4
+PA1 => Equal15.IN4
+PA1 => A15M.DATAA
+PA0 => Equal6.IN5
+PA0 => Equal7.IN5
+PA0 => Equal8.IN5
+PA0 => Equal9.IN5
+PA0 => Equal10.IN5
+PA0 => Equal11.IN5
+PA0 => Equal12.IN5
+PA0 => Equal15.IN5
+PA0 => A14M.DATAA
+CxFx => nMAP.IN1
+CxFx => nMAP.IN1
+CxFx => nCSROM.IN1
+CxFx => nCSROM.IN1
+CxFx => nCSROM.IN1
+CxFx => nCSROM.IN1
+CxFx => nCSROM.IN1
+CxFx => nCSROM.IN1
+CxFx => nCSROM.IN1
+CxFx => nCSROM.IN1
+A13 => nMAP.IN0
+A13 => nCSROM.IN1
+DAL1 => nMAP.IN0
+DAL1 => nCSROM.IN1
+DAL7 => nMAP.IN0
+DAL7 => nMAP.IN1
+MODE1 => Equal0.IN5
+MODE1 => Equal1.IN5
+MODE1 => Equal2.IN5
+MODE1 => Equal3.IN5
+MODE1 => Equal4.IN5
+MODE1 => Equal5.IN5
+MODE1 => Equal13.IN5
+MODE1 => Equal14.IN5
+MODE2 => Equal0.IN4
+MODE2 => Equal1.IN4
+MODE2 => Equal2.IN4
+MODE2 => Equal3.IN4
+MODE2 => Equal4.IN4
+MODE2 => Equal5.IN4
+MODE2 => Equal13.IN4
+MODE2 => Equal14.IN4
+MODE3 => Equal0.IN3
+MODE3 => Equal1.IN3
+MODE3 => Equal2.IN3
+MODE3 => Equal3.IN3
+MODE3 => Equal4.IN3
+MODE3 => Equal5.IN3
+MODE3 => Equal13.IN3
+MODE3 => Equal14.IN3
+RW => nCSROM.IN1
+RW => nCSROM.IN1
+RW => nCSROM.IN1
+RW => nCSROM.IN1
+RW => nCSROM.IN1
+RW => nCSROM.IN1
+RW => nCSROM.IN1
+RW => nCSROM.IN1
+nMAP <= nMAP.DB_MAX_OUTPUT_PORT_TYPE
+A14M <= A14M.DB_MAX_OUTPUT_PORT_TYPE
+A15M <= A15M.DB_MAX_OUTPUT_PORT_TYPE
+A16M <= A16M.DB_MAX_OUTPUT_PORT_TYPE
+nCSRAM <= nCSRAM.DB_MAX_OUTPUT_PORT_TYPE
+nCSROM <= nCSROM.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|Reg_273:inst20
+SS <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 74273:inst6.D2
+D0 => 74273:inst6.D1
+D4 => 74273:inst6.D4
+D7 => 74273:inst6.D7
+D6 => 74273:inst6.D6
+D5 => 74273:inst6.D5
+CLK_273 => 74273:inst6.CLK
+RST_273 => 74273:inst6.CLRN
+DS0 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+HLD => inst20.IN0
+DS1 <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+DS2 <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+DS3 <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+IRQE <= 74273:inst6.Q1
+DAL1 <= 74273:inst6.Q2
+DAL7 <= 74273:inst6.Q7
+
+
+|CPLD128_Telestrat|Reg_273:inst20|74273:inst6
+Q1 <= 19.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 19.ACLR
+CLRN => 18.ACLR
+CLRN => 17.ACLR
+CLRN => 16.ACLR
+CLRN => 15.ACLR
+CLRN => 14.ACLR
+CLRN => 13.ACLR
+CLRN => 12.ACLR
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+CLK => 12.CLK
+D1 => 19.DATAIN
+Q2 <= 18.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 18.DATAIN
+Q3 <= 17.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 17.DATAIN
+Q4 <= 16.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q5 <= 15.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 15.DATAIN
+Q6 <= 14.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 14.DATAIN
+Q7 <= 13.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 13.DATAIN
+Q8 <= 12.DB_MAX_OUTPUT_PORT_TYPE
+D8 => 12.DATAIN
+
+
+|CPLD128_Telestrat|Reg_273:inst20|74139o:inst21
+Y10N <= 33.DB_MAX_OUTPUT_PORT_TYPE
+G1N => 7.IN0
+B1 => 11.IN0
+A1 => 8.IN0
+Y13N <= 36.DB_MAX_OUTPUT_PORT_TYPE
+Y12N <= 35.DB_MAX_OUTPUT_PORT_TYPE
+Y11N <= 34.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|sequenceur:inst6
+L2_5 <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst13.IN0
+CLK => inst19.IN0
+PHI => inst13.IN1
+L3_10 <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+L3_7 <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+L7_10 <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|sequenceur:inst6|74154:inst15
+O0N <= 32.DB_MAX_OUTPUT_PORT_TYPE
+G1N => 45.IN0
+G2N => 45.IN1
+A => 43.IN0
+B => 40.IN0
+C => 36.IN0
+D => 34.IN0
+O1N <= 31.DB_MAX_OUTPUT_PORT_TYPE
+O2N <= 30.DB_MAX_OUTPUT_PORT_TYPE
+O3N <= 29.DB_MAX_OUTPUT_PORT_TYPE
+O4N <= 28.DB_MAX_OUTPUT_PORT_TYPE
+O5N <= 27.DB_MAX_OUTPUT_PORT_TYPE
+O6N <= 26.DB_MAX_OUTPUT_PORT_TYPE
+O7N <= 25.DB_MAX_OUTPUT_PORT_TYPE
+O8N <= 24.DB_MAX_OUTPUT_PORT_TYPE
+O9N <= 23.DB_MAX_OUTPUT_PORT_TYPE
+O10N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+O11N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+O12N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+O13N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+O14N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+O15N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|sequenceur:inst6|74161:inst3
+clk => p74161:sub.clk
+ldn => p74161:sub.ldn
+clrn => p74161:sub.clrn
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= p74161:sub.qd
+qc <= p74161:sub.qc
+qb <= p74161:sub.qb
+qa <= p74161:sub.qa
+rco <= p74161:sub.rco
+
+
+|CPLD128_Telestrat|sequenceur:inst6|74161:inst3|p74161:sub
+RCO <= 41.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 8.ACLR
+CLRN => 9.ACLR
+CLRN => 7.ACLR
+CLRN => 6.ACLR
+CLK => 8.CLK
+CLK => 9.CLK
+CLK => 7.CLK
+CLK => 6.CLK
+LDN => 24.IN1
+LDN => 40.IN0
+LDN => 42.IN2
+LDN => 27.IN1
+LDN => 22.IN1
+LDN => 19.IN1
+B => 74.IN0
+ENT => 42.IN0
+ENT => 41.IN4
+ENT => 41.IN5
+ENP => 42.IN1
+A => 26.IN0
+C => 21.IN0
+D => 18.IN0
+QD <= 6.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 7.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 8.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|MB8877_logic:inst19
+RW => WE.IN0
+RW => RE.IN1
+RW => D7.IN1
+RW => D7.IN1
+RW => n373OE.DATAIN
+n1793 => WE.IN0
+L2_5 => n244OE.IN0
+L3_7 => n373LE.IN0
+L7_10 => WE.IN1
+L7_10 => RE.IN1
+n314 => D7.IN0
+n318 => D7.IN0
+DRQ1793 => D7.IN1
+IRQ1793 => IRQ.IN0
+IRQ1793 => D7.IN1
+IRQE => IRQ.IN1
+WE <= WE.DB_MAX_OUTPUT_PORT_TYPE
+RE <= RE.DB_MAX_OUTPUT_PORT_TYPE
+n373OE <= RW.DB_MAX_OUTPUT_PORT_TYPE
+n373LE <= n373LE.DB_MAX_OUTPUT_PORT_TYPE
+n244OE <= n244OE.DB_MAX_OUTPUT_PORT_TYPE
+D7 <= D7.DB_MAX_OUTPUT_PORT_TYPE
+IRQ <= IRQ.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|HLT_8877:inst12
+HLT <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+Clk_1MHz => monostable_900ms:inst1.clk
+Clk_1MHz => monostable_20ms:inst.clk
+HLD => monostable_900ms:inst1.stb
+STEP => monostable_20ms:inst.stb
+
+
+|CPLD128_Telestrat|HLT_8877:inst12|monostable_900ms:inst1
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+clk => cnt[11].CLK
+clk => cnt[12].CLK
+clk => cnt[13].CLK
+clk => cnt[14].CLK
+clk => cnt[15].CLK
+clk => cnt[16].CLK
+clk => cnt[17].CLK
+clk => cnt[18].CLK
+clk => cnt[19].CLK
+stb => st.CLK
+q <= st.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|HLT_8877:inst12|monostable_20ms:inst
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+clk => cnt[11].CLK
+clk => cnt[12].CLK
+clk => cnt[13].CLK
+clk => cnt[14].CLK
+stb => retrig.CLK
+stb => st.CLK
+q <= st.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPLD128_Telestrat|TR_245:inst15
+A0 <> 74541:inst1.Y1
+244OE => 74541:inst1.GN2
+244OE => 74541:inst1.GN1
+B0 <> 74373:inst.Q1
+B3 <> 74373:inst.Q4
+B2 <> 74373:inst.Q3
+B1 <> 74373:inst.Q2
+B6 <> 74373:inst.Q7
+B5 <> 74373:inst.Q6
+B4 <> 74373:inst.Q5
+B7 <> 74373:inst.Q8
+A1 <> 74541:inst1.Y2
+A2 <> 74541:inst1.Y3
+A3 <> 74541:inst1.Y4
+A4 <> 74541:inst1.Y5
+A5 <> 74541:inst1.Y6
+A6 <> 74541:inst1.Y7
+A7 <> 74541:inst1.Y8
+373LE => 74373:inst.G
+373OE => 74373:inst.OEN
+
+
+|CPLD128_Telestrat|TR_245:inst15|74541:inst1
+Y7 <= 26.DB_MAX_OUTPUT_PORT_TYPE
+A7 => 26.DATAIN
+GN1 => 2.IN0
+GN2 => 2.IN1
+Y8 <= 24.DB_MAX_OUTPUT_PORT_TYPE
+A8 => 24.DATAIN
+Y6 <= 19.DB_MAX_OUTPUT_PORT_TYPE
+A6 => 19.DATAIN
+Y5 <= 17.DB_MAX_OUTPUT_PORT_TYPE
+A5 => 17.DATAIN
+Y3 <= 14.DB_MAX_OUTPUT_PORT_TYPE
+A3 => 14.DATAIN
+Y4 <= 12.DB_MAX_OUTPUT_PORT_TYPE
+A4 => 12.DATAIN
+Y2 <= 7.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 7.DATAIN
+Y1 <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A1 => 5.DATAIN
+
+
+|CPLD128_Telestrat|TR_245:inst15|74373:inst
+Q8 <= 74.DB_MAX_OUTPUT_PORT_TYPE
+D8 => 19.DATAIN
+G => 19.LATCH_ENABLE
+G => 18.LATCH_ENABLE
+G => 17.LATCH_ENABLE
+G => 16.LATCH_ENABLE
+G => 15.LATCH_ENABLE
+G => 14.LATCH_ENABLE
+G => 13.LATCH_ENABLE
+G => 12.LATCH_ENABLE
+OEN => 1.IN0
+Q7 <= 73.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 18.DATAIN
+Q6 <= 72.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 17.DATAIN
+Q5 <= 71.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 16.DATAIN
+Q4 <= 70.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 15.DATAIN
+Q3 <= 69.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 14.DATAIN
+Q2 <= 68.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 13.DATAIN
+Q1 <= 67.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 12.DATAIN
+
+
