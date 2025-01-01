@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C1 ,1,"100nF","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","~"
+H1 H2 ,2,"EXT","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad","~"
+J13 ,1,"MIDI/MODEM","Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical","~"
+J14 ,1,"PAD_LEFT","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical","~"
+J15 ,1,"PAD_LEFT","Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset8mm_Housed_MountingHolesOffset9.2mm"," ~"
+J16 ,1,"MIDI/MODEM","Connector_IDC:IDC-Header_2x07_P2.54mm_Horizontal","~"
+SW1 ,1,"NMI","Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS","~"
