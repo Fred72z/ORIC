@@ -2,7 +2,7 @@
 
 Ensemble de platines pouvant se connecter sur un boitier principal connecté au port EXPANSION de l'oric.
 
-# CARTOUCHE ORIC
+# EXP CARTOUCHE
 Extension permettant de remplacer la ROM interne par une cartouche ROM externe
 
 # SCHEMA MATERIEL
