@@ -4,7 +4,7 @@ Cette extension ajoute un port cartouche à l'Oric.
 
 ![Chargement de l'Aigle d'Or](Test_Aigle.jpg)
 
-Elle utilise des cartouches ROM de 128Ko à 1Mo qui se logent à la place de la ROM interne de l'Oric [$C000-$FFFF]. La mémoire de la cartouche est donc découpée en page de 16Ko (8 à 64 pages).
+Elle utilise des cartouches ROM de 128Ko à 1Mo qui se logent à la place de la ROM interne de l'Oric [$C000-$FFFF]. La mémoire de la cartouche est donc découpée en pages de 16Ko (8 à 64 pages).
 
 ![Boîtier d'extension](Oric_EXP_Pcb.jpg)
 
