@@ -6,11 +6,9 @@ Les fichiers binaires ayant besoin d'une EEPROM sont indiqués par la mention (E
 
 ** Liste des programmes **
 
-Aigle d'or
-
-Le secret du tombeau
-
-Le diamant de l'île maudite
+* Aigle d'or
+* Le secret du tombeau
+* Le diamant de l'île maudite
 
 Tyrann
 
