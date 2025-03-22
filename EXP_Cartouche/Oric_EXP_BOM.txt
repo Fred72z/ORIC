@@ -1,0 +1,19 @@
+Référence		valeur
+C1		10µF	CMS 1206
+C2,C3	100nF	céramique pas 5mm
+R1		100R	CMS 0805
+R2,R3	3.3k	CMS 0805
+D1		1N4148
+Q1		BC847	SOT23
+U1,U2	74HCT541	CMS SOIC20W
+U3		GAL20V8B	DIP24
+U4		74HCT273	DIP20
+U5		74HCT08		SOIC14
+U6		74LVC1G125	SOT23-5
+J1,J3	Connecteur IDC mâle 2x17 90° pas 2.54mm
+J2		Connecteur pcb edge 36br pas 2.54mm
+J4		Connecteur jack alimentation 2.1mm
+SW1		Bouton tactile 90° 6x6x7mm (la tige dépasse de 3.5mm)
+H5,H6	2 vis tôle 2.9x9.5mm
+1x		Support CI 20br
+1x 		Support CI 24br étroit
