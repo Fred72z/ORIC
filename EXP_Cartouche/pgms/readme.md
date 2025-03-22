@@ -1,6 +1,6 @@
 # Cartouches ROM
 
-Les cartouches peuvent être équipée d'une mémoire EEPROM pour les stocker les sauvegardes des jeux d'aventure.
+Les cartouches peuvent être équipées d'une mémoire EEPROM pour stocker les sauvegardes des jeux d'aventure.
 Les fichiers binaires ayant besoin d'une EEPROM sont indiqués par la mention (EEP)
 
 
