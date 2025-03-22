@@ -11,5 +11,5 @@ Schémas au propre du matériel ORIC.
 
 # TELESTRAT II et TELESTRAT III
 
-Nouvelle machine TELESTRAT.
+Nouvelles machines TELESTRAT.
 (Dans la série si vous ne pouvez pas la trouver, faites la vous-même :)).
