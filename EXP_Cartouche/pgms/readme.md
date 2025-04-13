@@ -34,3 +34,14 @@ Les fichiers binaires ayant besoin d'une EEPROM sont indiqués par la mention (E
 * The hobbit
 * Rat Splat
 * Welcome to Oric
+* Le diamant de Kheops
+* Le sceptre d'Anubis
+* Le masque d'or
+* Super meteor
+* Styx
+* Manic miner
+* Ghost gobbler
+* Zebbie
+* Hopper
+* Centipede
+* Mushroom mania
