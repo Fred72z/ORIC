@@ -1,5 +1,8 @@
 # Extension cartouche pour ORIC #
 
+**ATTENTION**
+Il y a une erreur dans le montage. Le schéma et les gerber de l'extension ne sont pas bons. Ils seront corrigés ultérieurement.
+
 Cette extension ajoute un port cartouche à l'Oric.
 
 ![Chargement de l'Aigle d'Or](Test_Aigle.jpg)
