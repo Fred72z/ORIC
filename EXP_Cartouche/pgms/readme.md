@@ -24,7 +24,7 @@ Les fichiers binaires ayant besoin d'une EEPROM sont indiqués par la mention (E
     * Stormlord
     * Mission Impossible
     * Oricium
-* Compilation N1
+* Compilation Loriciels
     * Super Jeep
     * Doggy
     * Star
