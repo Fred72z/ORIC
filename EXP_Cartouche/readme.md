@@ -1,7 +1,5 @@
 # Extension cartouche pour ORIC #
 
-**ATTENTION**
-Il y a une erreur dans le montage. L'enregistrement sur l'EEPROM ne fonctionne pas correctement. Ce sera corrigé ultérieurement.
 
 Cette extension ajoute un port cartouche à l'Oric.
 
