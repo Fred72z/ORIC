@@ -31,7 +31,6 @@ L'interface se branche simplement sur le bus d'extension de l'Oric.
 
 **Cartouches**
 
-Le répertoire pgms contient les fichiers binaires à graver ainsi que les étiquettes des cartouches.
 Pour l'instant, il y a 9 cartouches disponibles pour un total de 28 programmes.
 
 ![Cartouches disponibles](Cartouches_titres.jpg)
