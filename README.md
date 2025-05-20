@@ -5,10 +5,6 @@ Ensemble de platines pouvant se connecter sur un boitier principal connecté au 
 # EXP CARTOUCHE
 Extension permettant de remplacer la ROM interne par une cartouche ROM externe
 
-# SCHEMA MATERIEL
-
-Schémas au propre du matériel ORIC.
-
 # TELESTRAT II et TELESTRAT III
 
 Nouvelles machines TELESTRAT.
