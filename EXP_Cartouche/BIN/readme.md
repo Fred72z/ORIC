@@ -12,6 +12,5 @@
 - Tansoft : Ultima zone, Defence force, zebbie, welcome to oric, the hobbit, rat splat
 - Egypte : Le diamant de Kheops,  , le masque d'or
 - Homebrew : Stormlord, oricium, impossible mission (*)
-- 
 
 Les cartouches marquées (*) comportent une petite EEPROM permettant de sauvegarder l'avancée du jeu dans la cartouche pour le reprendre plus tard.
