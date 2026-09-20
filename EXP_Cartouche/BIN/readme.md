@@ -10,7 +10,7 @@
 - Compilation Loriciels : Super Jeep, Doggy, Star, Stanley, Flipper, 3D Munch, Sorvivor, 3D Fongus, Frelon
 - Compilation 2 : Super meteors, styx, manic miner, ghost gobbler, acherons rage , zebbie, hopper, centipede, mushroom mania, ultra , le trésor de Tarakunda
 - Tansoft : Ultima zone, Defence force, zebbie, welcome to oric, the hobbit, rat splat
-- Egypte : Le diamant de Kheops,  , le masque d'or
+- Egypte : Le diamant de Kheops,  , le masque d'or, anubis (*)
 - Homebrew : Stormlord, oricium, impossible mission (*)
 
 Les cartouches marquées (*) comportent une petite EEPROM permettant de sauvegarder l'avancée du jeu dans la cartouche pour le reprendre plus tard.
