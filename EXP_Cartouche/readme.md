@@ -31,6 +31,6 @@ L'interface se branche simplement sur le bus d'extension de l'Oric.
 
 **Cartouches**
 
-Pour l'instant, il y a 9 cartouches disponibles pour un total de 28 programmes.
+Pour l'instant, il y a 12 cartouches disponibles pour un total de 41 programmes.
 
-![Cartouches disponibles](Cartouches_titres.jpg)
+![Cartouches disponibles](Cartouches.jpg)
